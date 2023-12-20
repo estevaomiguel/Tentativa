@@ -24,3 +24,28 @@ class Bulldog(Dog):
 
 miles = JackRussellTerrier("Miles", 4)
 miles.speak()
+
+#Exercise 1
+
+class GoldenRetriever(Dog):
+    def speak(self, sound = "Bark"):
+        return super().speak(sound)
+
+#Exercise 2
+
+class Rectangle:
+
+    def __init__(self, leght, width):
+        self.leght = leght
+        self.width = width
+
+    def area(self):
+        return self.leght * self.width
+
+class Square(Rectangle):
+    def __init__(self, side_length):
+        super().__init__(side_length, side_length)
+square = Square(4)
+print(square.area())
+
+
