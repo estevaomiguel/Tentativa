@@ -1,3 +1,4 @@
+import unittest
 def sum_even(lista):
     count = 0
     for numero in lista:
@@ -9,9 +10,12 @@ def sum_even(lista):
     return count
 
 
+assertEqual(sum_even([1,2,3,4,5,6,7,8]), 20 )
 
-print(sum_even([1,2,3,4,5,6,7,8]))
-print(sum_even([1,2,"papagaio",7,8]))
+assert sum_even([1,2,"papagaio",7,8]) == 9
+
+
+
 
 #try except
 #
