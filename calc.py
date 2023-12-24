@@ -3,8 +3,6 @@ def add(x, y):
 
 def subtract(x, y):
     pass
-ljndcjlnwdlcn
-jncjnweldnwed
 
 
 def multiply(x, y):
