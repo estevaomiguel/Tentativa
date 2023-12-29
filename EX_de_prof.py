@@ -14,6 +14,4 @@ print(sum_even([1,2,4,7,8]))
 
 
 
-
-#try except
-#
+#oi 
